@@ -183,6 +183,15 @@
     <!-- JavaScript for Mobile Menu and Image Generation -->
     <script src="script.js"></script>
     <script src="products.js"></script>
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
 
 </body>
 
